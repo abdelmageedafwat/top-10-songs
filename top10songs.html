@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>learn</title> 
+<link rel="stylesheet" href="top10songs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<script>
+  window.addEventListener("load", function() 
+    {
+      document.getElementById("showme").addEventListener("click", function() 
+        {
+         var btn = document.getElementById("menu");
+          if (btn.style.display === "none") 
+            {
+            btn.style.display = "block";
+            
+            this.textContent = "Hide Me !";
+            } 
+            else
+            {
+            btn.style.display = "none";
+            this.textContent = "Show Me !";
+
+            }
+        }
+      );
+    }
+  );
+      </script>
+     
+
+
+</head>
+
+<body>
+ 
+  <div class="top">
+  <h1> <i class="fa-solid fa-music"></i> Top 10 Songs</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro sint repellat, provident asperiores corporis molestiae dolores placeat necessitatibus quisquam sit! In omnis facilis inventore, voluptates quo tempore enim corrupti consequuntur ipsum eos tempora iusto similique cumque delectus cum blanditiis hic accusamus amet labore molestias esse cumque delectus cum blanditiis hic accusamus amet labore.</p>
+  </div>  
+
+  <button id="showme" onclick="hideButton(this)" >Show Me !</button>
+    <div id="menu" style="display: none;">
+      <ul>
+        <li><span>#1</span> Time to Pretend</li>
+        <li><span>#2</span> O-o-oh Child</li>
+        <li><span>#3</span> Wish You Were Here</li>
+        <li><span>#4</span> Heroes</li>
+        <li><span>#5</span> I Put a Spell on You</li>
+        <li><span>#6</span> Call Me</li>
+        <li><span>#7</span> Paper Planes</li>
+        <li><span>#8</span> Jolene</li>
+        <li><span>#9</span> You Don't Own Me</li>
+        <li><span>#10</span> Fast Car</li>
+        <li><span>#11</span> Run the World (Girls)</li>
+        <li><span>#12</span> Superstition</li>
+      </ul>
+    </div>
+
+</body>
+
+
+
+
+</html>
